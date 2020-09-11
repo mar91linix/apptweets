@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tweet App</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-     <link rel="stylesheet" href="index.css">
-     <link rel="stylesheet" href="./recursos/font-awesome/css/font-awesome.min.css">
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="recursos/font-awesome/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="container">
-        <div id='Tw'>
-        <h1 class="text-center mt-5">  <i class="fa fa-twitter tw" ></i>tweet app</h1>
+        <div id="titulo1">
+        <h1 class="text-center mt-5"> <i class="fa fa-twitter tw"></i> Tweet App</h1>
         <hr>
     </div>
+
         <div class="row mt-5">
             <div class="col">
+                
                 <form id="formulario">
+                    <div id="h3">
                     <h3>Tweet:</h3>
-                    <textarea class="form-control" name="tweet" id="tweet" rows="5" placeholder="Aqui tu Tweet"></textarea>
-                    <div id='but'>
-                    <button  type="submit" id="btn_guardar" class="btn btn-primary"><i class="fa fa-floppy-o" ></i>Guardar Tweet</button>
                 </div>
+                    <textarea class="form-control" name="tweet" id="tweet" rows="5" placeholder="Aquí tu Tweet"></textarea>
+                    <button type="submit" id="btn_guardar" class="btn btn-primary"><i class="fa fa-floppy-o"></i> Guardar Tweet</button>
                 </form>
             </div>
             <div class="col">
+                <d id="h33">
                 <h3>Mis Tweets:</h3>
-                <div id="lisatdo"></div>
+            </d>
+            <div id="listado"></div>
             </div>
         </div>
-      <di class="row" id="mensajes"></div>
+
+        <div class="row" id="mensajes"></div>
     </div>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
-integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
- integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
- crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
- integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
- crossorigin="anonymous"></script>
- <script src="/app.js/app.js"></script> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="./app.js/app.js"></script>
+
 </body>
+
 </html>
