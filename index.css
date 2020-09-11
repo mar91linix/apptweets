@@ -1,0 +1,36 @@
+li {
+    list-style: none;
+    width: 90%;
+    padding: 5px;
+}
+
+
+#tweet {
+    width: 100%;
+    color: #c0dde4;
+}
+
+#btn_guardar {
+    margin: 10px auto;
+    width: 100%;
+    color:rgb(8, 1, 5);
+    background: #f17cd8;
+
+}
+
+
+#mensajes{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.btnEliminar {
+    color: red;
+    float: right;
+    cursor: pointer;
+    font-size: 20px !important;
+}
+.tw {
+    color: #f17cd8;
+    
+}
